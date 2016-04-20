@@ -1,0 +1,283 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1> <img src="imagenes/buena.png" width="600" height="200"></h1>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview">
+			<li><a href="#page2" data-transition="pop" >Cafe</a></li>
+            <li><a href="#page3" data-transition="pop">Postres</a></li>
+			<li><a href="#page4" data-transition="pop">Recetario</a></li>
+		</ul>		
+	</div>
+    <br>
+    <div align="center">
+    <img src="imagenes/mexico.png">
+    <br>
+    </div>
+    <br>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<h4>TODO EL CAFE ES 100% MEXICANO</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+     <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">REGRESAR</a>
+		<h1><strong><img src="imagenes/CAFEBANNER.png" width="550" height="150"></strong></h1>
+	</div>
+	<div data-role="content">
+    
+    
+    	
+		
+        <h4 align="center">El cafe es mucho más que una bebida, es sin duda uno de los productos más apasionantes que existen.</h4>
+        <div align="center"        
+    <img src="imagenes/cafes.png" width="450" height="250">
+        </div>
+        <h4 align="center">He aquí un vistazo a las bebidas de café más populares disponibles en las casas de café más exigentes.</h4>
+        <p>
+        
+        <div data-role="collapsible" align="center">
+         <h3 align="center">CAFE EXPRESO</h3>
+        <img src="imagenes/expreso.png" width="250" height="250">
+       <p>
+       <h5>Expreso es un café negro fuerte hecho forzando vapor a través de oscuro-asado granos de café aromáticos a alta presión en una máquina de café. Un expreso perfectamente preparado tendrá una crema espesa, marrón dorado (espuma) en la superficie. Si la crema es buena, el azúcar se agrega flotará en la superficie durante un par de segundos antes de que se hunde lentamente hasta el fondo.</h5>
+       </div>
+        
+         <div data-role="collapsible" align="center">
+         <h3 align="center">CAPPUCCINO</h3>
+        <img src="imagenes/capuccino.png" width="250" height="250">
+       <p>
+       <h5>Esta bebida de café muy popular se ha convertido en un elemento básico que incluso el más común de los cafés de la esquina lleva (o al menos una versión de la misma). Un verdadero cappuccino es una combinación de partes iguales de espresso, leche al vapor y espuma de leche. Esta bebida de lujo, si se hace correctamente, puede doblar como un postre con sus complejos sabores y la riqueza.</h5>
+       </div>
+       
+       <div data-role="collapsible" align="center">
+         <h3 align="center">CAFE AMERICANO</h3>
+        <img src="imagenes/americano.png" width="250" height="250">
+       <p>
+       <h5>Un americano es un solo tiro de expreso añadido a una taza de agua caliente. El nombre se cree que se originó como un poco de un insulto a los estadounidenses, que tuvieron que diluir su expreso cuando se hicieron populares en este lado del charco. Muchas casas de café se han perfeccionado, sin embargo, y el resultado se ha convertido en un cremoso, rico café a base de expreso que se puede disfrutar y saborear antes de saltar en su Vespa y de dirigirse a la cancha de fútbol.</h5>
+       </div>
+       
+       <div data-role="collapsible" align="center">
+         <h3 align="center">LECHE MANCHADA CON CAFE</h3>
+        <img src="imagenes/manchado.png" width="250" height="250">
+       <p>
+       <h5>Un café con leche es un solo tiro de expreso a tres partes de leche al vapor. A diferencia de otros este se basa en un cafe expreso para su elaboración, y se puede acompañar de pana.</h5>
+       </div>
+       
+       <div data-role="collapsible" align="center">
+         <h3 align="center">CAFE CON LECHE</h3>
+        <img src="imagenes/leche.png" width="250" height="250">
+       <p>
+       <h5>Esta bebida tradicional francesa es similar a una leche manchada con cafe, excepto que se hace con café reciénte, en lugar de espresso, en una proporción de 1:1 con leche al vapor. Se considera una forma más débil de la leche manchada con cafe.</h5>
+       </div>
+       
+        <div data-role="collapsible" align="center">
+         <h3 align="center">MOCACCINO</h3>
+        <img src="imagenes/moka.png" width="250" height="250">
+       <p>
+       <h5>Se trata de un cappuccino o un café con leche con jarabe de chocolate o en polvo añadido. No puede haber grandes variaciones en exactamente cómo está preparado, así que pregunte a su casa de café cómo lo hacen antes de pedirlo.</h5>
+       </div>
+       
+       <div data-role="collapsible" align="center">
+         <h3 align="center">CAFE MANCHADO CON CARAMELO</h3>
+        <img src="imagenes/caramelo.png" width="200" height="250">
+       <p>
+       <h5>Esta es otra variación que se prepara en un número de maneras por diferentes casas de café. El método más común es la combinación de espresso, caramelo y leche espumada, aunque algunos utilizan la leche al vapor. A menudo, se añade la vainilla para proporcionar un sabor extra.</h5>
+       </div>
+     
+     
+     
+        		
+	</div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<h4>ESTO ES ALGO DE LO QUE PUEDEN ENCONTRAR AQUI...</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">REGRESAR</a>
+		<h1><img src="imagenes/postrecito.png" width="500" height="150"></strong></h1>
+	</div>
+	<div data-role="content">
+    <div align="center">
+    			<img src="imagenes/cara.png" width="250" height="225"></div>
+                </strong>
+
+		<h4 align="center">Y para acompañar un buen cafe, nunca debe de faltar un buen postre.</h4>		
+	
+    <div data-role="collapsible" align="center">
+         <h3 align="center">CHOCOFLAN</h3>
+        <img src="imagenes/flan.png" width="250" height="150">
+       <p>
+       <h5>Un clásico con el toque nussett. Delicioso pan de chocolate con cremoso flan horneado, cubierto por el delicioso sabor del caramelo.</h5>
+       </div>
+       
+       <div data-role="collapsible" align="center">
+         <h3 align="center">HOTCAKES</h3>
+        <img src="imagenes/hotcakes.png" width="250" height="150">
+       <p>
+       <h5>Unos clásicos Hot Cakes endulzados con caramelo o miel mapple.</h5>
+       </div>
+       
+       <div data-role="collapsible" align="center">
+         <h3 align="center">CHEESECAKE OREO®</h3>
+        <img src="imagenes/oreo.png" width="210" height="180">
+       <p>
+       <h5>Cremoso pastel de queso con trocitos y base de galleta OREO®.</h5>
+       </div>
+       
+       <div data-role="collapsible" align="center">
+         <h3 align="center">PASTEL DE FRESA</h3>
+        <img src="imagenes/fresa.png" width="150" height="150">
+       <p>
+       <h5>Esponjoso pan de vainilla bañado en tres leches, cubierto por crema ligeramente endulzada y relleno con deliciosas fresas frescas.</h5>
+       </div>
+    
+    
+    
+    </div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<h4>SIEMPRE ALGO BUENO PARA ACOMPAÑAR...</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">REGRESAR</a>
+		<h1><img src="imagenes/recetas.png" width="550" height="150"></strong></h1>
+	</div>
+	<div data-role="content">	
+		<h4 align="center">Podrá preferir usted una cosa más bien clásica - desde café con leche hasta un Frapuccino - o una especialidad algo más creativa - aquí encontrará una pequeña selección de diferentes recetas de Café.</h4>
+        
+        <div data-role="collapsible" align="center">
+         <h3 align="center">FRAPUCCINO DE MOKA</h3>
+        <img src="imagenes/frapu.png" width="200" height="200">
+       <div>
+       <p>
+       <h4>
+       75 minutos<br> 
+ 4 porciones<p>
+Ingredientes<br></h4>
+<h5>
+-	2 taza café expreso o café fuerte (tibio)<br>
+-	3 cdas. azucar<br>
+-	Sirope de chocolate<br>
+-	2/3 taza azúcar<br>
+-	1/2 taza cacao en polvo sin azúcar<br>
+-	1 onza chocolate picado finito<br>
+-	1 1/2 cdta. miel<br>
+-	1/2 cdta. extracto de vainilla<br>
+-	Frappe<br>
+-   1 taza leche semi-descremada<br>
+-   Crema chantilly<br>
+</h5>
+<p>
+<h4>Pasos</h4>
+<h5>
+1.	Prepara el cafe frio: Agregar el azúcar al cafe hasta que se disuelva y luego dejar enfriar. Vertir el cafe en una cubetera para hacer hielo y congele por unas 3 hrs.
+</h5><p>
+
+<h5>
+2.	Preparar el sirope de chocolate: Combinar el azucar y el cacao en polvo dentro de una olla y agregar lentamente 2/3 de agua caliente, batiendo hasta que el azucar se disuelva (fuego medio/bajo) unos 3 -5 mins.
+</h5><p>
+
+<h5>
+3.	Que no llegue al hervor. Retire del fuego y agregue el chocolate, miel y vainilla. Revuelva bien. Transfiera a un bowl y refrigere hasta que se enfrie.
+</h5><p>
+
+<h5>
+4.	Licue 8 cubitos de cafe, 1/2 taza de leche, 1/3 taza de sirope de chocolate y 1 taza de hielo natural hasta que quede cremoso. Vierta el contenido en 2 vasos y luego repita el proceso para servir 2 vasos mas. Termine con crema chantilly y sirope de chocolate por encima. Disfruten!!!
+</h5><p>
+</div>
+       </div>
+        
+        <div data-role="collapsible" align="center">
+         <h3 align="center">CAFE EXPRESO</h3>
+        <img src="imagenes/express.png" width="200" height="150">
+       <div>
+       <p>
+       <h4>
+       15 minutos<br> 
+ 1 porcion<p>
+Ingredientes<br></h4>
+<h5>
+-	Cafe<br>
+-   Agua<br>
+-   Azucar<br>
+</h5>
+<p>
+<h4>Pasos</h4>
+<h5>
+1.	Ponemos el café en el recipiente o manilla de la cafetera, apretamos bien y el café también lo ponemos muy apretado, presionamos con la cuchara plana y encendemos la cafetera.
+</h5><p>
+
+<h5>
+2.	No dejar que caiga mucho agua, sino se pierde la esencia del expresso.
+</h5><p>
+
+<h5>
+3.	Servir en un taza específica para este café, suelen ser pequeñas y de boca más estrecha. Preparamos el hielo en un vaso. Ponemos el azúcar o edulcorante en la taza con café, movemos y una vez está disuelto lo echamos en el vaso con hielo... listo!!!
+</h5><p>
+</div>
+       </div>
+        
+        <div data-role="collapsible" align="center">
+         <h3 align="center">CAFE TURCO</h3>
+        <img src="imagenes/turco.png" width="200" height="200">
+       <div>
+       <p>
+       <h4>
+Ingredientes<br></h4>
+<h5>
+-	1 tz de agua<br>
+-  	1 cucharada café árabe molido finamente<br>
+-   1 pizca cardamomo molido <br>
+-   Azucar al gusto<br>
+</h5>
+<p>
+<h4>Pasos</h4>
+<h5>
+1.	Poner el agua y el azúcar a hervir en el ibrik. Si no tienes un ibrik ponlo en un vaso de peltre o cualquier olla.
+</h5><p>
+
+<h5>
+2.	Retirar del fuego y añadir el café y cardamomo.<p> 
+
+Devolver al fuego para calentar y dejar para hervir. Retirar del fuego cuando el café haga espuma. De nuevo, volver al calor a fuego lento, permitiendo que la espuma suba. 
+Retire del fuego. Y sirve
+</h5><p>
+
+<h5>
+3.	NOTA: 
+No revolver después de verter en las tazas, ya que la espuma colapsa. Siempre usa agua fría. El ibrik lo pueden comprar en ebay por unos 5 dolares :)
+
+</h5><p>
+</div>
+       </div>
+        
+        
+        
+        
+        
+        		
+	</div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<h4>PARA NO SALIR DE CASA...</h4>
+	</div>
+</div>
+
+</body>
+</html>
